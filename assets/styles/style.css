@@ -1,0 +1,43 @@
+@font-face {
+    font-family: RoboroRegular;
+    src: url(../fonts/RobotoRegular.ttf);
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 120px 1fr 140px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 14px 11px 27px;
+}
+.menu {
+    margin-right: -18px;
+    margin-left: -18px; 
+}
+
+.menu a{
+font-family: "RobotoRegular";
+font-size: 12px;
+line-height: 21px;
+letter-spacing: 1.7px;
+text-transform: uppercase;
+text-decoration: none;
+color: #212A2F;
+margin-right: 18px;
+margin-left: 18px;
+}
+
+.header-right{
+    display: grid;
+    justify-self: end;
+}
+.menu-right{
+    justify-self: end;
+    margin-right: 12px;
+}
+.icons{
+  justify-self: end;
+}
+.icons img{
+    margin-right: 8px;
+    margin-left: 8px;
+}
