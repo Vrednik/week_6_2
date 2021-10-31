@@ -2,42 +2,119 @@
     font-family: RoboroRegular;
     src: url(../fonts/RobotoRegular.ttf);
 }
-.header{
+
+@font-face {
+    font-family: RoboroBold;
+    src: url(../fonts/RoboroBold.ttf);
+}
+
+.header {
     display: grid;
     grid-template-columns: 1fr 120px 1fr 140px;
     justify-content: space-between;
     align-items: center;
     padding: 11px 14px 11px 27px;
 }
+
 .menu {
     margin-right: -18px;
-    margin-left: -18px; 
+    margin-left: -18px;
 }
 
-.menu a{
-font-family: "RobotoRegular";
-font-size: 12px;
-line-height: 21px;
-letter-spacing: 1.7px;
-text-transform: uppercase;
-text-decoration: none;
-color: #212A2F;
-margin-right: 18px;
-margin-left: 18px;
+.menu a {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #212A2F;
+    margin-right: 18px;
+    margin-left: 18px;
 }
 
-.header-right{
+.header-right {
     display: grid;
     justify-self: end;
 }
-.menu-right{
+
+.menu-right {
     justify-self: end;
     margin-right: 12px;
 }
-.icons{
-  justify-self: end;
+
+.icons {
+    justify-self: end;
 }
-.icons img{
+
+.icons img {
     margin-right: 8px;
     margin-left: 8px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: end;
+    background-image: url(../images/main.png);
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-container {
+    margin-left: 54px;
+}
+
+.title {
+    font-family: "RobotoBold", sans-serif;
+    font-size: 48px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    margin-top: 11px;
+    font-family: "RobotoBold", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.main_button {
+    display: grid;
+    justify-content: start;
+    grid-column-gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 66px;
+}
+
+.button-action {
+    width: 180px;
+    padding: 17px 0;
+    border-radius: 2px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.button-action a {
+    font-family: "RobotoBold", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+    text-decoration: none;
+}
+
+.button-action:first-child {
+    grid-row: 1/2;
+}
+
+.button-action:last-child {
+    grid-row: 1/2;
 }
