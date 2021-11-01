@@ -218,3 +218,12 @@ h1 {
 .block-subtitle{
     grid-row: 1 / 2;
 }
+
+.block_img{
+    background-image: url(../images/block_3.png);
+    background-position: center;
+    background-size: cover;
+    height: 542px;
+    max-width: 100%;
+    max-height: 100%;
+}
