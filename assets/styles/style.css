@@ -1,10 +1,10 @@
 @font-face {
-    font-family: RoboroRegular;
+    font-family: 'RoboroRegular';
     src: url(../fonts/RobotoRegular.ttf);
 }
 
 @font-face {
-    font-family: RoboroBold;
+    font-family: 'RoboroBold';
     src: url(../fonts/RoboroBold.ttf);
 }
 
@@ -117,4 +117,104 @@
 
 .button-action:last-child {
     grid-row: 1/2;
+}
+
+.favorites {
+    display: grid;
+    padding: 119px 102px 142px 102px;
+}
+
+h1 {
+    font-family: "RobotoBold", sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.favorite-menu {
+    margin-top: 32px;
+    padding-bottom: 12px;
+    border-bottom-width: 2px;
+    border-bottom-color: #D3D4D5;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+.favorite-menu a {
+    margin-left: 66px;
+    margin-right: 66px;
+    font-family: "RobotoBold", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #212A2F;
+}
+
+.item-action {
+    padding-bottom: 12px;
+    border-bottom-width: 2px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+}
+
+.favorite-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 396px));
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.item-image {
+    position: relative;
+}
+
+.favorite_button {
+    position: absolute;
+    top: 144px;
+    left: 60px;
+}
+
+.favorite_button .button-action {
+    width: 276px;
+}
+
+.favorite_button .button-action:last-child {
+    margin-top: 12px;
+}
+
+.block-description {
+    margin-top: 17px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.description-title {
+    padding-bottom: 10px;
+    font-family: "RobotoBold", sans-serif;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    border-bottom-width: 1px;
+    border-bottom-color: #D3D4D5;
+    border-bottom-style: solid;
+}
+
+.description{
+    display: grid;
+    justify-content: start;
+    grid-column-gap: 12px;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.description img{
+    grid-row: 1 / 2;
+}
+
+.block-subtitle{
+    grid-row: 1 / 2;
 }
