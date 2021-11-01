@@ -227,3 +227,31 @@ h1 {
     max-width: 100%;
     max-height: 100%;
 }
+
+.block_text{
+    padding: 52px 0 120px 0;
+}
+
+.text-title{
+margin: 54px 0 30px 0;
+font-family:  "RobotoBold", sans-serif;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #212A2F;
+}
+
+.block_text_button{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 24px;
+}
+
+.block_text_button .button-action{
+    background: #212A2F;
+}
+
+.block_text_button .button-action a{
+    color: #FFFFFF;
+}
