@@ -337,7 +337,6 @@
     padding-top: 119px;
     padding-bottom: 138px;
     margin: 0 102px;
-    padding-bottom: 134px;
 }
 
 .new_arrivals .title {
@@ -372,4 +371,13 @@
 
 .block_text_3 .button-action{
     width: 384px;
+}
+
+.stories{
+    padding-bottom: 186px;
+    margin: 0 102px;
+}
+
+.stories .title{
+    text-align: left;
 }
