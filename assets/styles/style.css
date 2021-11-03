@@ -68,7 +68,7 @@
     margin-left: 54px;
 }
 
-.title {
+.title_main {
     font-family: "RobotoBold", sans-serif;
     font-size: 48px;
     line-height: 63px;
@@ -124,7 +124,7 @@
     padding: 119px 102px 142px 102px;
 }
 
-h1 {
+.title{
     margin: 0 auto;
     font-family: "RobotoBold", sans-serif;
     font-size: 32px;
@@ -268,9 +268,10 @@ h1 {
 
 .shop {
     margin: 0 102px;
+    padding-bottom: 134px;
 }
 
-.shop h1 {
+.shop .title {
     text-align: left;
 }
 
@@ -300,4 +301,29 @@ h1 {
     right: -23px;
     width: 48px;
     height: 48px;
+}
+
+.block_img_2 {
+    background-image: url(../images/block_6.png);
+    background-position: center;
+    background-size: cover;
+    height: 545px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.block_text_2 {
+    display: grid;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.block_text_2 .text-title {
+    max-width: 655px;
+    margin-top: 22px;
+    margin-bottom: 26px;
+}
+
+.block_text_2 .button-action{
+    width: 384px;
 }
