@@ -282,6 +282,9 @@
     position: relative;
     margin-top: 24px;
 }
+.product_text{
+    margin-left: 20px;
+}
 
 .product .block-subtitle {
     margin-top: 10px;
@@ -326,4 +329,16 @@
 
 .block_text_2 .button-action{
     width: 384px;
+}
+
+
+.new_arrivals {
+    padding-top: 119px;
+    padding-bottom: 138px;
+    margin: 0 102px;
+    padding-bottom: 134px;
+}
+
+.new_arrivals .title {
+    text-align: left;
 }
