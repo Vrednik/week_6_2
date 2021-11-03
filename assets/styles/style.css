@@ -125,6 +125,7 @@
 }
 
 h1 {
+    margin: 0 auto;
     font-family: "RobotoBold", sans-serif;
     font-size: 32px;
     line-height: 42px;
@@ -186,24 +187,28 @@ h1 {
 }
 
 .block-description {
-    margin-top: 17px;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.description-title {
+.block-item .block-title {
     padding-bottom: 10px;
-    font-family: "RobotoBold", sans-serif;
-    font-size: 22px;
-    line-height: 29px;
-    letter-spacing: 0.5px;
-    color: #212A2F;
     border-bottom-width: 1px;
     border-bottom-color: #D3D4D5;
     border-bottom-style: solid;
 }
 
-.description{
+.block-title {
+    margin-top: 17px;
+    font-family: "RobotoBold", sans-serif;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+
+}
+
+.description {
     display: grid;
     justify-content: start;
     grid-column-gap: 12px;
@@ -211,15 +216,20 @@ h1 {
     margin-top: 11px;
 }
 
-.description img{
+.description img {
     grid-row: 1 / 2;
 }
 
-.block-subtitle{
+.block-subtitle {
     grid-row: 1 / 2;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
 }
 
-.block_img{
+.block_img {
     background-image: url(../images/block_3.png);
     background-position: center;
     background-size: cover;
@@ -228,30 +238,66 @@ h1 {
     max-height: 100%;
 }
 
-.block_text{
+.block_text {
     padding: 52px 0 120px 0;
 }
 
-.text-title{
-margin: 54px 0 30px 0;
-font-family:  "RobotoBold", sans-serif;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-letter-spacing: 0.5px;
-color: #212A2F;
+.text-title {
+    margin: 54px 0 30px 0;
+    font-family: "RobotoBold", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
 }
 
-.block_text_button{
+.block_text_button {
     display: grid;
     justify-content: center;
     grid-column-gap: 24px;
 }
 
-.block_text_button .button-action{
+.block_text_button .button-action {
     background: #212A2F;
 }
 
-.block_text_button .button-action a{
+.block_text_button .button-action a {
     color: #FFFFFF;
+}
+
+.shop {
+    margin: 0 102px;
+}
+
+.shop h1 {
+    text-align: left;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 396px));
+    justify-content: space-between;
+    position: relative;
+    margin-top: 24px;
+}
+
+.product .block-subtitle {
+    margin-top: 10px;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 40%;
+    left: -92px;
+    width: 48px;
+    height: 48px;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 40%;
+    right: -23px;
+    width: 48px;
+    height: 48px;
 }
